@@ -29,22 +29,20 @@ Deviations from course's original code:
 
 What's coming next?
 
-1) This is the end of the SQL section of the Udemy course. Moving forward Max is now
-   going to be working with the MongoDB. I suspect the fundamentals of the models and
-   controllers should not go through radical changes though clearly there will be some
-   changes since Max will be dealing with Mongoose and not Sequelize. 
-
-2) The code has been forked, so this branch will remain as a SQL solution. But now it 
+1) The code has been forked, so this branch will remain as a SQL solution. But now it 
    is time for myself to get to work as I do not like how "app.js" is organized. there
    is extemely tight coupling there towards setting up Sequelize and I am sure there
    is a better solution to de-couple the code to make it cleaner. So expect changes
-   outside the scope of Max's course to happen.
+   outside the scope of Max's course to happen. In the meantime, the No-SQL branch of
+   the same project can be found in this repository: 
+   
+                  https://github.com/mvkitech/complete-nosql
 
-3) I do suspect I will also need to revisit this branch to merge non-database changes 
+2) I do suspect I will also need to revisit this branch to merge non-database changes 
    such as User Authentication, E-Mail Support, Validation, Error Handling as well as 
    File Upload/Download and Pagination. 
 
-4) Finally I would like to revisit the UI views screens (likely at the end of the 
+3) Finally I would like to revisit the UI views screens (likely at the end of the 
    course) as while the styling isn't too bad, the layout of all the screens are
    pretty basic and could definitely be improved.
    
